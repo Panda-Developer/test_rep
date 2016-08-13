@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: New Century Schoolbook, serif
+  font-size: 16px;
+  color:#555;
+  background: white;
+  background: -webkit-linear-gradient(white, #F5F4F6);
+  background: -o-linear-gradient(white, #F5F4F6);
+  background: -moz-linear-gradient(white, #F5F4F6);
+  background: linear-gradient(white, #F5F4F6);
+  }
+
+.center {
+  margin: auto;
+  min-width: 800px;
+  max-width: 1000px;
+}
+
+header{
+  padding-top: 15px;
+  height:215px;
+  box-sizing: border-box;
+  }
+
+.logo {
+  width: 350px;
+  height: 150px;
+  margin:  auto;
+  display: block;
+}
+
+.main_menu {
+  width:100%;
+  margin:15px 0 0 0;
+  padding:0 2%;
+  list-style: none;
+  }
+
+.main_menu li{
+  display:inline-block;
+  float:left;
+  width:15.9%;
+  border-left: 1px solid #F5F4F5;
+  border-top: 1px solid #F5F4F5;
+  border-bottom: 5px solid #E6F4F8;
+}
+
+.main_menu li:last-child {
+  border-right: 1px solid #F5F4F5;
+}
+
+.main_menu li a{
+  display:block;
+  text-decoration: none;
+  padding:5px;
+  color:#9D9B9F;
+  text-align: center;
+
+}
+
+.main_menu li a:hover{
+  color:#626263;
+  box-shadow: 3px 3px 3px 3px #ccc;
+}
+
+.main_menu li a:active{
+  color:black;
+  box-shadow: 3px 3px 3px 3px #ccc inset;
+}
+
+main {
+  margin-bottom: -50px;
+  }
+
+main .columns{
+  padding-bottom: 20px;
+  }
+
+main>section {
+  margin:15px auto;
+  padding: 0 2%;
+  }
+
+main .main_image>img{
+  display:block;
+  min-width: 100%;
+}
+
+
+main .columns::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+main .left_column{
+  float:left;
+  margin: 0 1% 0 2%;
+  width:60%;
+  height: 500px;
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+main h2{
+  text-align: center;
+  margin: 25px 0;
+}
+
+main h3{
+  text-align: center;
+  margin:0;
+  }
+
+
+main p{
+  text-align: justify;;
+  margin: 25px;
+}
+
+main .right_column p{
+  text-align: justify;;
+  margin: 0 25px 25px;
+}
+
+main .right_column{
+  float:right;
+  margin: 0 2% 0 0;
+  height: 500px;
+  width:35%;
+  min-height: 100%;
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+footer {
+  clear:both;
+  width: 100%;
+  height: 50px;
+}
+
+footer .foo {
+  width:96%;
+  height:40px;
+  padding-top: 10px;
+  margin: 0 2%;
+  background-color: #ccc;
+  }
+
+footer  b{
+    display: block;
+    margin-left: 20px;
+        }
